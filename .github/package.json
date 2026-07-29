@@ -1,1 +1,40 @@
+```json
+{
+  "name": "login-flow-automation",
+  "version": "1.0.0",
+  "description": "Automated login flow testing with GitHub Actions CI/CD",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:mobile": "playwright test --project='Mobile Chrome' --project='Mobile Safari'",
+    "test:report": "playwright show-report",
+    "test:trace": "playwright show-trace"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "automation",
+    "testing",
+    "playwright",
+    "ci-cd",
+    "github-actions",
+    "login",
+    "e2e"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+```
 
