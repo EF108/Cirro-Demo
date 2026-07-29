@@ -6,9 +6,8 @@ on:
     branches: [ main, develop ]
   workflow_dispatch:
 env:
-  NODE_VERSION: '18'
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true 
-  
+  NODE_VERSION: '24'
+    
 jobs:
   test-login-flows:
     name: Execute Login Automation Tests
